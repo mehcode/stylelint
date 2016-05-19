@@ -67,6 +67,7 @@ export default function (space, options = {}) {
       let nodeLevel = indentationLevel(node)
 
       if (options && options.hierarchicalSelectors) {
+        console.log("Option hierarchicalSelectors has been deprecated and will be removed in 7.0") // eslint-disable-line no-console
         // hierarchicalSelectorsLevel will add the node to the hierarchyMap ...
         nodeLevel = hierarchicalSelectorsLevel(node, nodeLevel)
       } else {

@@ -1,5 +1,6 @@
 # Head
 
+- Deprecated: `"hierarchicalSelectors"` option for `indentation`.
 - Fixed: `selector-type-no-unknown` now ignores nested selectors.
 
 # 6.4.1
